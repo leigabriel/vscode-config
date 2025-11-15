@@ -24,5 +24,9 @@ This repository contains a set of Visual Studio Code settings and a custom CSS f
    - Run the `Enable Custom CSS and JS` command from the Command Palette (`Ctrl+Shift+P`).
    - Restart VS Code.
 
+## Output
+
+![VS Code Config Screenshot](output.png)
+
 ---
 Feel free to fork and modify for your own setup!
