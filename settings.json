@@ -1,8 +1,4 @@
 {
-  // GitHub Copilot
-  "github.copilot.advanced": {
-    "authProvider": "github"
-  },
 
   // File Explorer
   "explorer.confirmDragAndDrop": false,
@@ -50,11 +46,6 @@
   "editor.minimap.maxColumn": 50,
   "editor.minimap.size": "fill",
   "editor.minimap.showSlider": "always",
-
-  // Code Runner
-  "code-runner.runInTerminal": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.saveFileBeforeRun": true,
 
   // Workbench layout
   "workbench.panel.defaultLocation": "right",
@@ -116,16 +107,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
 
-  // Live Server
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
-  "liveServer.settings.CustomBrowser": "chrome",
-
   // File handling
   "files.hotExit": "onExitAndWindowClose",
-
-  // Glass effect
-  "glassit.alpha": 235,
 
   // Profile settings
   "workbench.settings.applyToAllProfiles": [
@@ -143,17 +126,5 @@
   "vscode_custom_css.imports": [
     // Add the path to your custom CSS file here
     "file:///C:/path/to/your/custom/style.css"
-  ],
-
-  // Miscellaneous
-  "git.suggestSmartCommit": false,
-  "breadcrumbs.enabled": false,
-  "geminicodeassist.project": "blissful-trilogy-zbvk2",
-  "diffEditor.codeLens": true,
-  
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.externalBrowser": "zen",
-  "workbench.activityBar.location": "hidden",
-  "window.menuBarVisibility": "toggle"
+  ]
 }
