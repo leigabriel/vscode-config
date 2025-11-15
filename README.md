@@ -1,6 +1,6 @@
 # VS Code Config
 
-This repository contains a set of Visual Studio Code settings and a custom CSS file to enhance your editor experience.
+This repository contains a set of Visual Studio Code settings and a custom CSS file to create a minimalist editor experience.
 
 ## Installation
 
