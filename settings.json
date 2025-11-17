@@ -1,130 +1,134 @@
 {
+    // File Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": true,
+    "explorer.compactFolders": false,
 
-  // File Explorer
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": true,
-  "explorer.compactFolders": false,
+    // Terminal settings
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.wordWrap": "on",
+    "terminal.integrated.stickyScroll.enabled": false,
 
-  // Terminal settings
-  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontLigatures": true,
-  "terminal.integrated.wordWrap": "on",
-  "terminal.integrated.stickyScroll.enabled": false,
+    // Editor behavior
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "always",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.stickyTabStops": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.scrollbar.sliderBackground": "#ffffff40",
+    "editor.scrollbar.sliderHoverBackground": "#ffffff80",
+    "editor.scrollbar.sliderActiveBackground": "#ffffffcc",
+    "editor.scrollbar.rounded": true,
+    "editor.padding.top": 12,
+    "editor.padding.bottom": 8,
 
-  // Editor behavior
-  "workbench.editor.enablePreview": false,
-  "files.autoSave": "onFocusChange",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.wordWrap": "on",
-  "editor.autoClosingBrackets": "always",
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.formatOnPaste": true,
-  "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.stickyTabStops": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.verticalScrollbarSize": 6,
-  "editor.scrollbar.horizontalScrollbarSize": 6,
-  "editor.scrollbar.sliderBackground": "#ffffff40",
-  "editor.scrollbar.sliderHoverBackground": "#ffffff80",
-  "editor.scrollbar.sliderActiveBackground": "#ffffffcc",
-  "editor.scrollbar.rounded": true,
-  "editor.padding.top": 12,
-  "editor.padding.bottom": 8,
+    // Editor minimap
+    "editor.minimap.scale": 1,
+    "editor.minimap.maxColumn": 50,
+    "editor.minimap.size": "fill",
+    "editor.minimap.showSlider": "always",
 
-  // Editor minimap
-  "editor.minimap.scale": 1,
-  "editor.minimap.maxColumn": 50,
-  "editor.minimap.size": "fill",
-  "editor.minimap.showSlider": "always",
+    // Workbench layout
+    "workbench.panel.defaultLocation": "right",
+    "window.titleBarStyle": "custom",
+    "window.title": "${activeEditorShort}",
+    "workbench.startupEditor": "none",
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.navigationControl.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
+    "window.restoreWindows": "all",
+    "window.restoreFullscreen": true,
 
-  // Workbench layout
-  "workbench.panel.defaultLocation": "right",
-  "window.titleBarStyle": "custom",
-  "window.title": "${activeEditorShort}",
-  "workbench.startupEditor": "none",
-  "window.commandCenter": false,
-  "chat.commandCenter.enabled": false,
-  "workbench.editor.showTabs": "multiple",
-  "workbench.navigationControl.enabled": false,
-  "workbench.tree.enableStickyScroll": false,
-  "editor.stickyScroll.enabled": false,
-  "window.restoreWindows": "all",
-  "window.restoreFullscreen": true,
+    // Color customization
+    "workbench.colorCustomizations": {
+        // border customization
+        "editorGroup.border": "#5c5b5b40",
+        "sideBar.border": "#5c5b5b40",
+        "panel.border": "#5c5b5b40",
 
-  // Color customization
-  "workbench.colorCustomizations": {
+        // panels customization
+        "titleBar.activeBackground": "#212631",
+        "sideBar.background": "#212631",
+        "panel.background": "#212631",
+        "statusBar.background": "#212631",
 
-    // border customization
-    "editorGroup.border": "#5c5b5b40",
-    "sideBar.border": "#5c5b5b40",
-    "panel.border": "#5c5b5b40",
+        // scrollbar customization
+        "scrollbarSlider.background": "#00000000",
+        "scrollbarSlider.hoverBackground": "#00000000",
+        "scrollbarSlider.activeBackground": "#00000000",
 
-    // scrollbar customization
-    "scrollbarSlider.background": "#00000000",
-    "scrollbarSlider.hoverBackground": "#00000000",
-    "scrollbarSlider.activeBackground": "#00000000",
+        // slider customization
+        "minimapSlider.background": "#8b62c622",
+        "minimapSlider.hoverBackground": "#b37bff22",
+        "minimapSlider.activeBackground": "#b37bff22",
 
-    // slider customization
-    "minimapSlider.background": "#8b62c622",
-    "minimapSlider.hoverBackground": "#b37bff22",
-    "minimapSlider.activeBackground": "#b37bff22",
+        // selection and line highlight customization
+        "editor.selectionBackground": "#4b2d72",
+        "editor.lineHighlightBackground": "#4a2d70",
 
-    // selection and line highlight customization
-    "editor.selectionBackground": "#4b2d72",
-    "editor.lineHighlightBackground": "#4a2d70",
-    
-    // line number customization
-    "editorLineNumber.foreground": "#5a5f7d",
-    "editorLineNumber.activeForeground": "#c792ea",
+        // line number customization
+        "editorLineNumber.foreground": "#5a5f7d",
+        "editorLineNumber.activeForeground": "#c792ea",
 
-    // quick input customization
-    "quickInput.border": "#89DDFF",
-    "quickInput.background": "#212631",
-    "quickInput.foreground": "#A6ACCD",
-    "quickInputList.focusBackground": "#414863",
-    "quickInputList.focusForeground": "#A6ACCD",
-    "quickInputTitle.background": "#34324A"
-  },
+        // quick input customization
+        "quickInput.border": "#89DDFF",
+        "quickInput.background": "#212631",
+        "quickInput.foreground": "#A6ACCD",
+        "quickInputList.focusBackground": "#414863",
+        "quickInputList.focusForeground": "#A6ACCD",
+        "quickInputTitle.background": "#34324A"
+    },
 
-  // comment color
-  "editor.tokenColorCustomizations": {
-    "comments": "#6a748d"
-  },
+    // comment color
+    "editor.tokenColorCustomizations": {
+        "comments": "#6a748d"
+    },
 
-  // Theme and icons
-  "workbench.colorTheme": "Palenight Italic",
-  "workbench.preferredDarkColorTheme": "Default Dark+",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "material-product-icons",
+    // Theme and icons
+    "workbench.colorTheme": "Palenight Italic",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
 
-  // File handling
-  "files.hotExit": "onExitAndWindowClose",
+    // File handling
+    "files.hotExit": "onExitAndWindowClose",
 
-  // Profile settings
-  "workbench.settings.applyToAllProfiles": [
-    "glassit.alpha",
-    "editor.tabSize"
-  ],
+    // Profile settings
+    "workbench.settings.applyToAllProfiles": [
+        "glassit.alpha",
+        "editor.tabSize"
+    ],
 
-  // Editor associations
-  "workbench.editorAssociations": {
-    "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.h5": "default"
-  },
+    // Editor associations
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.h5": "default"
+    },
 
-  // Custom CSS and JS
-  "vscode_custom_css.imports": [
-    // Add the path to your custom CSS file here
-    "file:///C:/path/to/your/custom/style.css"
-  ]
+    // Custom CSS and JS
+    "vscode_custom_css.imports": [
+        // Add the path to your custom CSS file here
+        "file:///C:/path/to/your/custom/style.css"
+    ]
 }

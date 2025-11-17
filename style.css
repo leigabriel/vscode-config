@@ -1,37 +1,48 @@
 * {
-
-  /* change this to your preferred font */
-  font-family: 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace;
+    /* change this to your preferred font */
+    font-family: 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace;
 }
 
 .composite.title {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  justify-items: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-items: center !important;
 }
 
 .composite.title h2 {
-  font-weight: bold !important;
-  font-size: 12px !important;
-  text-transform: uppercase;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
 }
 
 .composite.title h2::before {
-  display: inline-block;
-  margin-right: 6px;
-  font-size: 1rem;
-  content: '🪼';
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 1rem;
+    content: '🪼';
 }
 
 .letterpress {
-  background: none !important;
-  width: 60% !important;
+    background: none !important;
+    width: 60% !important;
 
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
 
-  text-align: center !important;
+    text-align: center !important;
+}
+
+.menubar {
+    background-color: #212631 !important;
+}
+
+.titlebar {
+    background-color: #212631 !important;
+}
+
+.monaco-list .monaco-list-row:hover {
+    background-color: #4a2d70 !important;
 }
